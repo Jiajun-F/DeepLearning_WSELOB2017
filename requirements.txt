@@ -1,0 +1,9 @@
+# Versions used with Python 3.11 in the current project environment.
+numpy==2.4.4
+pandas==3.0.2
+tables==3.11.1
+torch==2.11.0
+ipython==9.10.0
+ipykernel==7.2.0
+jupyterlab==4.5.6
+matplotlib==3.10.8

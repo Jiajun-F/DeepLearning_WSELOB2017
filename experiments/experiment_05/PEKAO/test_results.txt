@@ -1,0 +1,21 @@
+Checkpoint epoch: 11
+Selection: validation accuracy = 0.650681
+Test loss: 0.786013
+F1 averaging: weighted by true class support
+Training-majority class: 0 (down)
+
+                            Accuracy  Weighted F1
+Model                                            
+DeepLOB                     0.649389     0.652285
+Training-majority baseline  0.350099     0.181571
+
+            Precision    Recall        F1  Support
+down         0.723158  0.651052  0.685214   697130
+stationary   0.539713  0.653443  0.591157   616074
+up           0.706873  0.643997  0.673972   678031
+
+Predicted class    down  stationary      up
+True class                                 
+down             453868      172880   70382
+stationary       102816      402569  110689
+up                70935      170446  436650
